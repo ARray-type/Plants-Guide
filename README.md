@@ -1,2 +1,2 @@
 # Plants-Guide
-An evergrowing guide on growing and harvesting plants wherever you may be.
+An evergrowing guide on learning, growing, and harvesting plants wherever you may be.
