@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> 
+    {{page.title}} 
+  </title>
+  <style> 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+    .sidebar {
+      width: 240px;
+      background: #f2f2f2;
+      padding: 20px;
+      height:100vh
+      position: fixed;
+      overflow-y: auto;
+      border-right: 1px solid #ddd
+    }
+    .sidebar h2 {
+      margin-top: 0px
+    }
+
+    .content {
+      margin-left: 260px;
+      padding: 20px;
+      max-width: 900px;
+    }
+
+    a {
+    text-decoration: none;
+    color: #006699
+    }
+
+    a:hover {
+      text-decoration: underline;
+      
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>🌿 Plant Guide</h2>
+    <ul>
+      <li><a href="/plant-guide/">Home</a></li>
+      <li><a href="/plant-guide/indoor-growing.html">Indoor Growing</a></li>
+      <li><a href="/plant-guide/outdoor-growing.html">Outdoor Growing</a></li>
+      <li><a href="/plant-guide/plant-evolution.html">Plant Evolution</a></li>
+      <li><a href="/plant-guide/plant-parts.html">Plant Anatomy</a></li>
+      <li><a href="/plant-guide/classification.html">Classification</a></li>
+      <li><a href="/plant-guide/troubleshooting.html">Troubleshooting</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+</body>
+</html>
