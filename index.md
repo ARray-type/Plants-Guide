@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # 🌱 Plant Guide
 
 Welcome! This is a collaborative guide on how to grow plants indoors and outdoors in an apartment.
