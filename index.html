@@ -6,29 +6,34 @@
   <title>Plant Guide</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
+  <div id="IntroContents">
+    <div id="Title">
+      <h1>Hello</h1>  
+    </div>
+    <div id="IntroParagraph">
+      <p>Hi there, you're probably wondering what the heck is all this about.
+       A whole website just for plants? thats crazy!!
+      And made for singaporeans no less, what a bloody miracle.
+    </p>
+    </div>
+  </div>
+  
   <div class="bodyfront"></div>
     <button class="sidebar-toggle" id="sidebar-toggle">☰</button>
     <div class="sidebar" id="sidebar">
-      <h2> 🌿 Plant Guide </h2>
+      <h2><a href="index.html"> 🌿 Plant Guide </a></h2>
       <ul>
-        <li><a href="/plant-guide/">Home</a></li>
-        <li><a href="/plant-guide/indoor-growing.html">Indoor Growing</a></li>
-        <li><a href="/plant-guide/outdoor-growing.html">Outdoor Growing</a></li>  
+        <li onclick="window.location.href='Plant-Basics.html'">Plant Basics</li>
+        <li onclick="window.location.href='Getting-Started.html'">Getting Started</li>
+        <li onclick="window.location.href='Projects.html'">Projects</li>
+        <li class="resources" id="resources">Resources</li>
+        <
       </ul>
-      <div class="extras">
-        extras
-        <div>
-          <ul2>
-            <li2 a href="/plant-guide/plant-evolution.html">Evolution</li2>
-          </ul2>
-        </div>
-      </div>
     </div>
 
-    <div class="content">
-      HELLOW 
-    </div>
+   
   <script src="assets/js/sidebartoggle.js"></script>
 </body>
 </html>
